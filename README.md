@@ -2,7 +2,6 @@
 
 A modern, responsive landing page for a counseling and mentorship program designed to help students and young professionals unlock their potential through expert guidance and support.
 
-![EmpowerPath Preview](https://via.placeholder.com/800x400/667eea/ffffff?text=EmpowerPath+Landing+Page)
 
 ## 🌟 Features
 
@@ -32,9 +31,7 @@ A modern, responsive landing page for a counseling and mentorship program design
 - **FAQ Section** addressing common questions
 - **Contact Form** for booking sessions
 
-## 🚀 Live Demo
 
-[View Live Demo](https://your-demo-link.com) <!-- Replace with actual demo link -->
 
 ## 🛠️ Tech Stack
 
@@ -74,24 +71,6 @@ score_eazy/
 
 ## 🎨 Design System
 
-### Color Palette
-```css
---gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
---gradient-secondary: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
---gradient-accent: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
---gradient-warm: linear-gradient(135deg, #ffeaa7 0%, #fab1a0 100%);
---gradient-cool: linear-gradient(135deg, #74b9ff 0%, #0984e3 100%);
-```
-
-### Typography
-- **Primary Font**: Poppins (300, 400, 500, 600, 700, 800)
-- **Secondary Font**: Inter (300, 400, 500, 600, 700)
-- **Font Sizes**: Responsive using clamp() for fluid typography
-
-### Spacing System
-- **Border Radius**: 10px, 20px, 30px, 40px, 50%
-- **Shadows**: 4 levels from subtle to dramatic
-- **Transitions**: Custom cubic-bezier curves for smooth animations
 
 ## 📱 Responsive Breakpoints
 
@@ -219,8 +198,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Kanan Sharma**
 - GitHub: [@kanansharma04](https://github.com/kanansharma04)
-- LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
-- Email: your.email@example.com
+- LinkedIn: [Your LinkedIn Profile](www.linkedin.com/in/kanan-sharma-b589b0275)
+- Email:kanansharmakkr@gmail.com
 
 ## 🙏 Acknowledgments
 
@@ -239,19 +218,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Responsive Breakpoints**: 6
 - **Browser Compatibility**: 95%+
 
-## 🔮 Future Enhancements
 
-- [ ] Add blog section for counseling tips
-- [ ] Implement online booking system
-- [ ] Add video testimonials
-- [ ] Create admin dashboard
-- [ ] Integrate payment processing
-- [ ] Add multi-language support
-- [ ] Implement dark mode toggle
-- [ ] Add PWA capabilities
 
 ---
 
 ⭐ **Star this repository if you found it helpful!**
 
-For questions or support, please [open an issue](https://github.com/kanansharma04/score-eazy-webdev/issues) or contact the development team.
+For questions or support, please [open an issue](https://github.com/kanansharma04/score-eazy-webdev/issues) 
