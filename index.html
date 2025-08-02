@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmpowerPath - Counseling & Mentorship Program</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Floating Navigation -->
+    <nav class="floating-nav" id="floatingNav">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <i class="fas fa-heart"></i>
+                <span>EmpowerPath</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#hero" class="nav-link active">Home</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#testimonials" class="nav-link">Stories</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+            </div>
+            <a href="#contact" class="nav-cta">
+                <span>Book Session</span>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+            <div class="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="row min-vh-100 align-items-center">
+                <div class="col-lg-8 mx-auto text-center" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="hero-content">
+                        <div class="hero-badge">
+                            <i class="fas fa-star"></i>
+                            <span>Trusted by 5000+ Students</span>
+                        </div>
+                        <h1 class="hero-title">
+                            Transform Your Journey with Expert Guidance
+                        </h1>
+                        <p class="hero-subtitle">
+                            Unlock your potential through personalized counseling, mentorship, and growth programs designed specifically for students and young professionals ready to thrive.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#contact" class="btn-primary">
+                                <span>Start Your Journey</span>
+                                <i class="fas fa-rocket"></i>
+                            </a>
+                            <a href="#services" class="btn-secondary">
+                                <i class="fas fa-play"></i>
+                                <span>Explore Services</span>
+                            </a>
+                        </div>
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <div class="stat-number" data-counter="5000">0</div>
+                                <div class="stat-label">Students Helped</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number" data-counter="98">0</div>
+                                <div class="stat-label">Success Rate</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number" data-counter="24">0</div>
+                                <div class="stat-label">Expert Mentors</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section with Hexagon Layout -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <div class="section-badge">
+                    <i class="fas fa-gem"></i>
+                    <span>Our Services</span>
+                </div>
+                <h2 class="section-title">
+                    Comprehensive Support for Your 
+                    <span class="gradient-text">Growth Journey</span>
+                </h2>
+                <p class="section-subtitle">
+                    We offer a range of personalized services designed to help you navigate challenges, discover opportunities, and achieve your goals with confidence.
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="card-background"></div>
+                    <div class="card-icon">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <h4>One-on-One Counseling</h4>
+                    <p>Personalized sessions tailored to your unique challenges and goals. Our expert counselors provide a safe space for growth and healing.</p>
+                    <ul class="service-features">
+                        <li>60-minute private sessions</li>
+                        <li>Flexible scheduling</li>
+                        <li>Evidence-based approaches</li>
+                        <li>Progress tracking</li>
+                    </ul>
+                    <div class="card-price">
+                        <span class="price">$75</span>
+                        <span class="period">/session</span>
+                    </div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-background"></div>
+                    <div class="card-icon">
+                        <i class="fas fa-compass"></i>
+                    </div>
+                    <h4>Mentorship Program</h4>
+                    <p>Connect with industry professionals who guide your career journey with practical insights and networking opportunities.</p>
+                    <ul class="service-features">
+                        <li>Industry expert mentors</li>
+                        <li>Monthly check-ins</li>
+                        <li>Goal setting & review</li>
+                        <li>Network building</li>
+                    </ul>
+                    <div class="card-price">
+                        <span class="price">$150</span>
+                        <span class="period">/month</span>
+                    </div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-background"></div>
+                    <div class="card-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h4>Growth Workshops</h4>
+                    <p>Interactive group sessions focusing on personal development, communication skills, and building resilience for life's challenges.</p>
+                    <ul class="service-features">
+                        <li>Small group sessions</li>
+                        <li>Interactive learning</li>
+                        <li>Practical tools</li>
+                        <li>Peer support</li>
+                    </ul>
+                    <div class="card-price">
+                        <span class="price">$45</span>
+                        <span class="period">/workshop</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section with Asymmetric Layout -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5" data-aos="fade-right">
+                    <div class="about-visual">
+                        <div class="about-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-graduation-cap"></i>
+                                <h5>Expert Team</h5>
+                                <p>Certified professionals dedicated to your success</p>
+                            </div>
+                        </div>
+                        <div class="about-stats">
+                            <div class="stat-bubble bubble-1">
+                                <span class="number">15+</span>
+                                <span class="label">Years Experience</span>
+                            </div>
+                            <div class="stat-bubble bubble-2">
+                                <span class="number">500+</span>
+                                <span class="label">Success Stories</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7" data-aos="fade-left">
+                    <div class="about-content">
+                        <div class="section-badge">
+                            <i class="fas fa-heart"></i>
+                            <span>About EmpowerPath</span>
+                        </div>
+                        <h2 class="section-title">
+                            Transforming Lives Through 
+                            <span class="gradient-text">Compassionate</span> Guidance
+                        </h2>
+                        <p class="about-description">
+                            At EmpowerPath, we believe every student and young professional deserves personalized support to navigate life's challenges and unlock their full potential. Our team of certified counselors and industry mentors creates a safe, nurturing environment where growth happens naturally.
+                        </p>
+                        
+                        <div class="approach-cards">
+                            <div class="approach-card">
+                                <div class="approach-icon">
+                                    <i class="fas fa-shield-heart"></i>
+                                </div>
+                                <div class="approach-content">
+                                    <h5>Safe & Supportive</h5>
+                                    <p>Creating judgment-free spaces where you can explore, grow, and heal at your own pace.</p>
+                                </div>
+                            </div>
+                            <div class="approach-card">
+                                <div class="approach-icon">
+                                    <i class="fas fa-puzzle-piece"></i>
+                                </div>
+                                <div class="approach-content">
+                                    <h5>Personalized Approach</h5>
+                                    <p>Tailored strategies that fit your unique situation, goals, and learning style.</p>
+                                </div>
+                            </div>
+                            <div class="approach-card">
+                                <div class="approach-icon">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                                <div class="approach-content">
+                                    <h5>Measurable Results</h5>
+                                    <p>Track your progress with clear milestones and celebrate every step forward.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section with Masonry Layout -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <div class="section-badge">
+                    <i class="fas fa-quote-left"></i>
+                    <span>Success Stories</span>
+                </div>
+                <h2 class="section-title">
+                    Real Stories from 
+                    <span class="gradient-text">Empowered</span> Students
+                </h2>
+                <p class="section-subtitle">
+                    Discover how our counseling and mentorship programs have transformed the lives of students and young professionals just like you.
+                </p>
+            </div>
+
+            <div class="testimonials-masonry">
+                <div class="testimonial-card card-tall" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-header">
+                        <div class="avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="user-info">
+                            <h6>Sarah Chen</h6>
+                            <span>Computer Science Student</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <p>"EmpowerPath helped me overcome my anxiety about career choices. Through their mentorship program, I connected with industry professionals who guided me towards my dream job at a tech startup. The support was incredible!"</p>
+                    </div>
+                    <div class="card-footer">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-header">
+                        <div class="avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="user-info">
+                            <h6>Marcus Rodriguez</h6>
+                            <span>Business Graduate</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <p>"The one-on-one counseling sessions changed my perspective on personal growth. I learned to manage stress better and built confidence in my abilities."</p>
+                    </div>
+                </div>
+
+                <div class="testimonial-card card-wide" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-header">
+                        <div class="avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="user-info">
+                            <h6>Emily Johnson</h6>
+                            <span>Psychology Major</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <p>"The growth workshops were transformative. I developed better communication skills and learned practical tools for managing relationships and academic pressure. The peer support was amazing too!"</p>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card-header">
+                        <div class="avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="user-info">
+                            <h6>David Park</h6>
+                            <span>Recent Graduate</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <p>"Career guidance sessions helped me land my first job. The resume optimization and interview prep were spot-on!"</p>
+                    </div>
+                </div>
+
+                <div class="testimonial-card card-tall" data-aos="fade-up" data-aos-delay="500">
+                    <div class="card-header">
+                        <div class="avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="user-info">
+                            <h6>Aisha Patel</h6>
+                            <span>Engineering Student</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <p>"As an international student, I felt lost navigating the academic and social aspects of university life. EmpowerPath provided me with the emotional support and practical guidance I needed to thrive. My mentor helped me understand the cultural nuances and build meaningful connections."</p>
+                    </div>
+                    <div class="card-footer">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="card-header">
+                        <div class="avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="user-info">
+                            <h6>Jordan Smith</h6>
+                            <span>Art Student</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <p>"Finding my creative voice was challenging until I joined the growth workshops. The supportive environment helped me overcome self-doubt."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section with Creative Layout -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5" data-aos="fade-right">
+                    <div class="faq-header">
+                        <div class="section-badge">
+                            <i class="fas fa-question-circle"></i>
+                            <span>FAQ</span>
+                        </div>
+                        <h2 class="section-title">
+                            Questions? 
+                            <span class="gradient-text">We've Got</span> 
+                            Answers
+                        </h2>
+                        <p class="section-subtitle">
+                            Find answers to common questions about our counseling and mentorship programs. Still have questions? We're here to help!
+                        </p>
+                        <div class="faq-contact">
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>(555) 123-4567</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>hello@empowerpath.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7" data-aos="fade-left">
+                    <div class="faq-container">
+                        <div class="faq-item active">
+                            <div class="faq-question">
+                                <h5>How do I book my first counseling session?</h5>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Booking your first session is easy! Click the "Book Session" button anywhere on our site, choose your preferred counselor and time slot, and complete the brief intake form. We'll send you a confirmation email with all the details.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h5>What should I expect in my first session?</h5>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Your first session is all about getting to know you. We'll discuss your goals, challenges, and what you hope to achieve. There's no pressure - it's a safe space to share as much or as little as you're comfortable with.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h5>Are the sessions confidential?</h5>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Absolutely. All our sessions are completely confidential and follow professional counseling ethics guidelines. Your privacy and trust are our top priorities.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h5>Can I switch counselors if needed?</h5>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Of course! Finding the right fit is important for your success. If you'd like to try working with a different counselor, just let us know and we'll help you find someone who better matches your needs.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h5>Do you offer online sessions?</h5>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Yes! We offer both in-person and online sessions to fit your schedule and comfort level. Our secure video platform ensures your privacy while providing the same quality support.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h5>What if I need to cancel or reschedule?</h5>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>We understand that life happens! You can cancel or reschedule up to 24 hours before your session without any fees. Less than 24 hours notice may incur a cancellation fee.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section with Floating Form -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <div class="section-badge">
+                    <i class="fas fa-calendar-plus"></i>
+                    <span>Book Your Session</span>
+                </div>
+                <h2 class="section-title">
+                    Ready to Start Your 
+                    <span class="gradient-text">Transformation</span> Journey?
+                </h2>
+                <p class="section-subtitle">
+                    Take the first step towards personal growth and clarity. Book your session today and begin your path to empowerment.
+                </p>
+            </div>
+
+            <div class="contact-content">
+                <div class="row align-items-center">
+                    <div class="col-lg-6" data-aos="fade-right">
+                        <div class="contact-info">
+                            <div class="info-card">
+                                <div class="card-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="card-content">
+                                    <h5>Quick & Easy Booking</h5>
+                                    <p>Schedule your session in under 2 minutes with our streamlined booking system.</p>
+                                </div>
+                            </div>
+
+                            <div class="info-card">
+                                <div class="card-icon">
+                                    <i class="fas fa-shield-check"></i>
+                                </div>
+                                <div class="card-content">
+                                    <h5>100% Confidential</h5>
+                                    <p>Your privacy is protected with our secure, HIPAA-compliant platform.</p>
+                                </div>
+                            </div>
+
+                            <div class="info-card">
+                                <div class="card-icon">
+                                    <i class="fas fa-heart-circle-check"></i>
+                                </div>
+                                <div class="card-content">
+                                    <h5>Immediate Support</h5>
+                                    <p>Get matched with the right counselor for your specific needs and goals.</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-methods">
+                                <h4>Prefer to talk first?</h4>
+                                <div class="method-items">
+                                    <a href="tel:+15551234567" class="method-item">
+                                        <i class="fas fa-phone"></i>
+                                        <span>(555) 123-4567</span>
+                                    </a>
+                                    <a href="mailto:hello@empowerpath.com" class="method-item">
+                                        <i class="fas fa-envelope"></i>
+                                        <span>hello@empowerpath.com</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-left">
+                        <div class="booking-form">
+                            <form id="bookingForm">
+                                <div class="form-header">
+                                    <h3>Book Your Session</h3>
+                                    <p>Let's get started on your journey to growth and clarity</p>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="fullName">Full Name</label>
+                                    <input type="text" id="fullName" name="fullName" required>
+                                    <i class="fas fa-user"></i>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email">Email Address</label>
+                                    <input type="email" id="email" name="email" required>
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="phone">Phone Number</label>
+                                    <input type="tel" id="phone" name="phone" required>
+                                    <i class="fas fa-phone"></i>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="service">Preferred Service</label>
+                                    <select id="service" name="service" required>
+                                        <option value="">Select a service</option>
+                                        <option value="counseling">One-on-One Counseling</option>
+                                        <option value="mentorship">Mentorship Program</option>
+                                        <option value="career">Career Guidance</option>
+                                        <option value="workshop">Growth Workshop</option>
+                                    </select>
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="preferredDate">Preferred Date</label>
+                                    <input type="date" id="preferredDate" name="preferredDate" required>
+                                    <i class="fas fa-calendar"></i>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="message">Tell us about your goals (Optional)</label>
+                                    <textarea id="message" name="message" rows="4" placeholder="What would you like to achieve through our program?"></textarea>
+                                </div>
+
+                                <button type="submit" class="submit-btn">
+                                    <span>Book My Session</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </button>
+
+                                <div class="form-note">
+                                    <i class="fas fa-info-circle"></i>
+                                    <span>We'll contact you within 24 hours to confirm your appointment</span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-content">
+                <div class="row">
+                    <div class="col-lg-4" data-aos="fade-up">
+                        <div class="footer-brand">
+                            <div class="brand-logo">
+                                <i class="fas fa-heart"></i>
+                                <span>EmpowerPath</span>
+                            </div>
+                            <p>Transforming lives through compassionate counseling and expert mentorship for students and young professionals.</p>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2" data-aos="fade-up" data-aos-delay="100">
+                        <div class="footer-column">
+                            <h5>Services</h5>
+                            <ul>
+                                <li><a href="#services">Counseling</a></li>
+                                <li><a href="#services">Mentorship</a></li>
+                                <li><a href="#services">Career Guidance</a></li>
+                                <li><a href="#services">Workshops</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2" data-aos="fade-up" data-aos-delay="200">
+                        <div class="footer-column">
+                            <h5>Company</h5>
+                            <ul>
+                                <li><a href="#about">About Us</a></li>
+                                <li><a href="#testimonials">Success Stories</a></li>
+                                <li><a href="#faq">FAQ</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2" data-aos="fade-up" data-aos-delay="300">
+                        <div class="footer-column">
+                            <h5>Resources</h5>
+                            <ul>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Guides</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms of Service</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2" data-aos="fade-up" data-aos-delay="400">
+                        <div class="footer-column">
+                            <h5>Contact</h5>
+                            <ul>
+                                <li><a href="tel:+15551234567">(555) 123-4567</a></li>
+                                <li><a href="mailto:hello@empowerpath.com">hello@empowerpath.com</a></li>
+                                <li>123 Wellness Street<br>Growth City, GC 12345</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p>&copy; 2025 EmpowerPath. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-end">
+                        <p>Made with <i class="fas fa-heart"></i> for your growth</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
